@@ -30,7 +30,7 @@ public class Main {
 
         System.out.print(nn>0? "Pare Noel (" + nn + ")   ":"");
         System.out.print(nr>0? "Ren (" + nr + ")   ":"");
-        System.out.println(nf>0? "Follet (" + nf + ")   ":"");
+        System.out.println(nf-nn>0? "Follet (" + (nf-nn) + ")   ":"");
     }
 
     }

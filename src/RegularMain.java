@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class RegularMain {
+public class RegularMain { //con regular expressions
 
     public static void main(String[] args) throws FileNotFoundException {
 	File santako = new File("src/santako.txt");
